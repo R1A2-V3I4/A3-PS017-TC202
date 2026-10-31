@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 # ------------------------------------------
 
 DATASET_PATH = "network_traffic.csv"
-MODEL_PATH = os.path.join("models", "latency_model.pkl")
+MODEL_PATH = "latency_model.pkl"
 
 FEATURES = [
     "traffic_load",
